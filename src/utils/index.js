@@ -19,9 +19,6 @@ const isValidPassword = (password) => {
 };
 
 
+module.exports= {isValid,validString,validateEmail,isValidPassword}
 
-module.exports.isValid = isValid
-module.exports.validString = validString
-module.exports.validateEmail = validateEmail
-module.exports.isValidPassword = isValidPassword
 
